@@ -5,7 +5,7 @@ const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     password: '1234',
-    database: 'crud_nodejs_mysql'
+    database: 'crud_nodejs-master'
 });
 
 connection.connect((error)=>{
